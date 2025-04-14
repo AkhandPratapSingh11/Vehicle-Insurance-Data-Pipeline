@@ -1,7 +1,7 @@
 import sys
 import logging
 
-def error_message_detail(error: Exception, error_detai: sys) ->str:
+def error_message_detail(error: Exception, error_detail: sys) -> str:
     """
     Extract detailed error information including file name, line number and the error message.
 
